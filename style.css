@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono";
+  height: 100vh;
+}
+
+.destaque {
+  background-image: url(./assets/Rectangle2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 930px;
+}
+
+.destaque-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 47px 135px;
+}
+
+.destaque header {
+  display: flex;
+  gap: 8px;
+  color: #514B4B;
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  line-height: 155.3%; /* 24.848px */
+  letter-spacing: 0.96px;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+main .head-main {
+  margin-top: 208px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 47px 135px;
+}
+
+main .head-main img:nth-child(1) {
+  width: 480px;
+  height: 176px;
+}
+
+main .head-main img:nth-child(3) {
+  width: 127px;
+  height: 51px;
+}
+
+main .head-main p {
+  width: 628px;
+  height: 69px;
+
+  color: #8E8E8E;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.3%; /* 24.848px */
+}
+
+main .head-main .users {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  align-self: self-start;
+  justify-content: center;
+}
+
+main .head-main .users p {
+  width: auto;
+  height: auto;
+
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 155.3%; /* 21.742px */
+}
+
+main .head-main .users img {
+  width: 110px;
+  height: 47px;
+}
+
+.sessao-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 47px 135px;
+  gap: 117px;
+  height: 554px;
+}
+
+.sessao-info .sessao-texto h1 {
+  width: 770px;
+  color: var(--cor-primaria, #1B1B1B);
+  text-align: center;
+  font-family: "Roboto Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.3%; /* 24.848px */
+}
+
+.sessao-info .border-card {
+  width: 854px;
+  height: 238px;;
+  border-radius: 20px;
+  border: 1.5px solid #FFE0B1;  
+}
+
+.sessao-info .sessao-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 848px;
+  height: 233px;
+  border-radius: 20px;
+  background: var(--cor-secundaria, #FCC26B);
+  border: 1.5px solid #FFE0B1;
+  position: relative;
+}
+
+.sessao-info .sessao-card .logo img {
+  position: absolute;
+  top: -100px;
+  left: -50px;
+  
+}
+
+.sessao-info .sessao-card-text {
+  display: flex;
+  margin-left: 150px;
+  margin-top: 30px;
+  gap: 42px;
+  align-items: center;
+  padding: 30px;
+}
+
+.sessao-card-text article h2 {
+  color: #000;
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+
+.sessao-card-text article h1 {
+  color: #FFF;
+  font-family: "Road Rage", sans-serif;
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.how-use {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 820px;
+  flex-shrink: 0;
+  background: #F8F8F8;
+}
+
+.how-curvado {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  top: 400px;
+  right: 24px;
+  position: relative;
+}
+
+.how-curvado h1 {
+  position: absolute;
+  color: #C5C5C5;
+  font-family: "Road Rage";
+  font-size: 84px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72%; /* 60.48px */
+  transform: rotate(-90deg);
+}
+
+.how {
+  display: flex;
+  padding: 67px 164px;
+  margin-top: 74px;
+}
+
+.how-text {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  margin-left: 50px;
+}
+
+.how-text article h1 {
+  width: 570px;
+
+  color: var(--cor-primaria, #1B1B1B);
+  font-family: "Rock Salt";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.3%; /* 27.954px */
+}
+
+.how-text article p {
+  width: 500px;
+
+  color: #787878;
+  font-family: "Roboto Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.3%; /* 24.848px */
+}
+
+.how-backgroud {
+  margin-left: 350px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.button button {
+  display: flex;
+  background: var(--cor-secundaria, #FCC26B);
+  height: 69px;
+  width: 265px;
+  padding: 19px 37px 19px 52px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.button button h1 {
+  color: #000;
+  font-family: "Road Rage";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.3px;
+  text-align: center;
+}
+
+.sobre {
+  height: 1000px;
+  margin-top: 300px;
+  position: relative;
+}
+
+.sobre .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.sobre .main h2 {
+  color: #8E8E8E;
+  font-family: "Roboto Mono";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 155.3%; /* 34.166px */
+}
+
+.sobre .main span {
+  color: var(--cor-secundaria, #FCC26B);
+  font-family: "Roboto Mono";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 155.3%;
+}
+
+.sobre .main h1 {
+  display: flex;
+  width: 1170px;
+  height: 302px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.sobre .main h1 {
+  color: var(--cor-primaria, #1B1B1B);
+  font-family: "Road Rage";
+  font-size: 459px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.3%; /* 712.827px */
+  letter-spacing: 27.54px;
+  text-transform: uppercase;
+}
+
+.main-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-two .texto {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 657px;
+  margin-top: 94px;
+}
+
+.main-two img {
+  width: 500px;
+  height: 780px;
+  top: 40px;
+  left: 27%;
+  position: absolute;
+}
+
+.main-two .texto p {
+  width: 443px;
+
+  color: var(--cor-primaria, #1B1B1B);
+  font-family: "Roboto Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.3%; /* 24.848px */
+}
+
+.arrow img {
+  position: absolute;
+  right: 380px;
+  bottom: -150px;
+}
+
+.sticker {
+  width: 100%;
+  height: 2010px;
+  background: #F8F8F8;
+}
+
+.sticker-info {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.sticker-info img {
+  margin-top: 80px;
+}
+
+
+
+.sticker-card {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 400px);
+  width: 100%;
+  place-items: center;
+  gap: 151px 25px;
+  margin-top: 211px;
+}
+
+.sticker-card article {
+  width: 370px;
+  height: 404px;
+
+  border-radius: 20px;
+  border: 1px solid #D9D9D9;
+  background: #EEE;
+}
+
+.sticker-card article .animal {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -100px;
+}
+
+.sticker-card article .animal img {
+  width: auto;
+  height: auto;
+}
+
+.sticker-card article h1 {
+  color: var(--cor-primaria, #1B1B1B);
+  text-align: center;
+  font-family: "Road Rage";
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.3%; /* 63.673px */
+  letter-spacing: 1.64px;
+  text-transform: uppercase;
+}
+
+.sticker-card article p {
+  color: #5D5D5D;
+  text-align: center;
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 127%; /* 17.78px */
+}
+
+.sticker-card .icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.sticker-text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -100px;
+}
+
+.cta {
+  width: 100%;
+  height: 891px;
+  background-image: url(./assets/animals2/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  mask-image: linear-gradient(to top, #FFF 17.57%, rgba(255, 255, 255, 0.00) 163.59%);
+  backdrop-filter: blur(1.5px);
+  
+}
+
+.cta-head {
+  display: flex;
+  position: relative;
+}
+
+.cta-head .text {
+  display: flex;
+  width: 100%;
+  padding-top: 100px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} 
+
+.cta-head .text h1 {
+  color: var(--cor-primaria, #1B1B1B);
+  text-align: center;
+  font-family: "Road Rage";
+  font-size: 431px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 47.41px;
+  text-transform: uppercase;
+}
+
+.cta-head .text h2 {
+  color: var(--cor-secundaria, #FCC26B);
+  text-align: center;
+  font-family: "Roboto Mono";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 5.75px;
+  text-transform: uppercase;
+}
+
+.cta-head .text p {
+  width: 632px;
+
+  color: #9C9C9C;
+  text-align: center;
+  font-family: "Roboto Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.3%; /* 24.848px */
+  margin-top: 60px;
+}
+
+.cta-head .text span {
+  color: #9C9C9C;
+  font-family: "Roboto Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 155.3%;
+}
+
+.imagem1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.imagem2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+footer {
+  width: 100%;
+  height: 330px;
+  background: #000;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 47px 135px;
+}
+
+footer .foot1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer .foot1 h1 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 155.3%; /* 46.59px */
+}
+
+footer .foot1 p {
+  width: 600px;
+  color: #9C9C9C;
+  font-family: "Roboto Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.3%; /* 23.295px */
+}
+
+footer .foot2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer .foot2 h1 {
+  color: #FFF;
+  font-family: "Roboto Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 155.3%; /* 27.954px */
+  letter-spacing: 1.62px;
+  text-transform: uppercase;
+}
+
+footer .foot2 p {
+  color: #9C9C9C;
+  font-family: "Roboto Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.3%; /* 23.295px */
+}
+
+footer .line {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 1600px;
+  height: 1px;
+  background: #282828;
+}
+
+.final {
+  display: flex;
+  justify-content: space-between;
+  padding: 47px 135px;
+}
+
+.final .final1 h1 {
+  color: #5C5C5C;
+  font-family: "Roboto Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -1.05px;
+}
+
+.final .final2 h1 {
+  color: #5C5C5C;
+  font-family: "Roboto Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -1.05px;
+}
